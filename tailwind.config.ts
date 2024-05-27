@@ -1,3 +1,4 @@
+import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -21,6 +22,17 @@ const config: Config = {
       'text-second': '#717171',
       green: '#0FAD1F',
       gray: '#8D8D8D',
+    },
+    extend: {
+      keyframes: {
+        slide: {
+          'from': { transform: 'translate(0)' },
+          'to': { transform: 'translate(-100%)' }
+        }
+      },
+      animation: {
+        slide: 'slide 20s infinite linear'
+      }
     }
   },
   plugins: [],

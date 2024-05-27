@@ -22,9 +22,9 @@ export function Button({ size, mode, as, children, ...rest }: ButtonProps) {
   };
 
   const sizes: any = {
-    small: 'px-7 py-4',
-    medium: 'px-9 py-5',
-    large: 'px-11 py-6',
+    small: 'px-7 py-[0.95rem]',
+    medium: 'px-10 py-[1.1rem]',
+    large: 'px-10 py-5',
   };
 
   const sizeMap: any = {
