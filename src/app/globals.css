@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1170px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@layer base {
+  @font-face {
+    font-family: Aeroport;
+    font-weight: 700;
+    src: url('/fonts/Aeroport Bold.woff') format("woff");
+  }
+
+  @font-face {
+    font-family: Proxima Nova;
+    font-weight: 500;
+    src: url('/fonts/AeroportMedium.woff') format("woff");
+  }
+
+  @font-face {
+    font-family: Aeroport;
+    font-weight: 400;
+    src: url('/fonts/Aeroport.woff') format("woff");
+  }
+}
