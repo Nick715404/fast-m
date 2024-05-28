@@ -6,3 +6,4 @@ export { Navigation } from './Navigation';
 export { Button } from './Button';
 export { SpecialOffer } from './SpecialOffer/SpecialOffer';
 export { Marque } from './Marque';
+export { CustomSwiper } from './Swiper/CustomSwiper';

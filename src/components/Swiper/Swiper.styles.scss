@@ -1,0 +1,17 @@
+.swiper {
+  padding-bottom: 30px !important;
+  overflow: hidden !important;
+}
+
+.swiper-pagination {
+  bottom: 0px !important;
+
+  .swiper-pagination-bullet-active {
+    width: 20px !important;
+    border-radius: 5px !important;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: #FCC344 !important;
+  }
+}

@@ -33,7 +33,7 @@ const config: Config = {
       animation: {
         slide: 'slide 20s infinite linear'
       }
-    }
+    },
   },
   plugins: [],
 };

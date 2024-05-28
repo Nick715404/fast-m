@@ -1,0 +1,1 @@
+export type { TSwiperSlide } from './swiper.types';
