@@ -37,17 +37,38 @@ export const swiperData = [
   },
 ];
 
-export const coursesData = [
+export const homePageCoursesData = [
   {
     id: 1,
     card: {
       title: 'Криптоинвестиции: успешный старт',
       subTitle: 'Базовые знания для новичков. Поможем разобраться с биржей, купить криптовалюту и совершить первые выгодные сделки с нуля.',
-      imgPath: '',
-      duration: '3 недели'
+      imgPath: '/png/courses/crypto.png',
+      duration: '3 недели',
+      href: '#',
     },
   },
-] as const;
+  {
+    id: 2,
+    card: {
+      title: 'Мастерская трейдинга: практика и заработок',
+      subTitle: 'Полное погружение в трейдинг: практика работы с профессио-нальными инструментами и стра-тегии для максимальной прибыли.',
+      imgPath: '/png/courses/trading.png',
+      duration: 'от 2 до 8 месяцев',
+      href: '#',
+    },
+  },
+  {
+    id: 3,
+    card: {
+      title: 'Индивидуальное сопро-вождение эксперта',
+      subTitle: 'Премиальный пакет услуг. Индивидуальные уроки, постоянная связь, консультационное управление.',
+      imgPath: '/png/courses/expert.png',
+      duration: 'от 1 месяца',
+      href: '#',
+    },
+  },
+];
 
 export const speakers = [
   {
@@ -86,7 +107,7 @@ export const speakers = [
     descr: 'Специалист по криптоинвести-циям, автор курсов Манифест, лицензированный брокер.',
     img: ''
   },
-] as const;
+];
 
 export const links = [
   {
@@ -105,11 +126,37 @@ export const links = [
     label: 'Публикации',
     href: '/publications',
   },
-] as const;
+];
 
-// - Pages Data
+export const homePageTabs = [
+  {
+    title: '4 000+',
+    text: 'Учеников уже зарабатывают на криптовалюте',
+  },
+  {
+    title: '700+',
+    text: 'Трейдеров в закрытом инвест-комьюнити',
+  },
+  {
+    title: '6 лет',
+    text: 'Успешно обучаем людей зарабатывать',
+  },
+  {
+    title: '$ 17+ млн',
+    text: 'Под консультационным управлением',
+  },
+]
 
-export const criptoStartPage = {
+// ------------------------------------------- Pages Data -------------------------------------------
+
+// - Home Data
+export const HomePage = {
+  tabs: homePageTabs,
+  courses: homePageCoursesData,
+}
+
+// - Crypto Data
+export const CryptoPage = {
   title: 'Криптоинвестиции: успешный старт',
   subTitle: 'Научим зарабатывать на криптовалюте с нуля. Расскажем как заработать 500 % за 6 месяцев.',
   tabs: [
@@ -361,4 +408,4 @@ export const criptoStartPage = {
       },
     ]
   }
-} as const;
+};

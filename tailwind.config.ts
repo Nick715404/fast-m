@@ -5,6 +5,7 @@ const config: Config = {
   content: [
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     screens: {
@@ -32,6 +33,9 @@ const config: Config = {
       },
       animation: {
         slide: 'slide 20s infinite linear'
+      },
+      fontSize: {
+        '4xl': 'clamp(20px, 2.1vw, 36px) !important'
       }
     },
   },

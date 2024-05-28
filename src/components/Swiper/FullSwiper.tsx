@@ -15,11 +15,12 @@ type TOwnSwiperProps = {
 export function FullSwiper({ slides }: TOwnSwiperProps) {
   return (
     <Swiper
+      loop
       spaceBetween={50}
       slidesPerView={1}
       modules={[Pagination, Autoplay]}
       pagination
-      autoplay={{ delay: 2500 }}
+      autoplay={{ delay: 2500, pauseOnMouseEnter: true }}
     >
       {
         slides.map((item, index) => (
