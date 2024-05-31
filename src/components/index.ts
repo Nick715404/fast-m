@@ -9,3 +9,4 @@ export { Marque } from './Marque';
 export { CustomSwiper } from './Swiper/CustomSwiper';
 export { ThemeSwitcher } from './DarkThemeSwitcher';
 export { CustomIframe } from './CustomIframe/CustomIframe';
+export { Experts } from './Experts/Experts';

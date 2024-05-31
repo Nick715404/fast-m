@@ -7,7 +7,7 @@ import dynamic from "next/dynamic";
 
 const SpecialOffer = dynamic(() => import('../components/SpecialOffer/SpecialOffer').then((res) => res.SpecialOffer), {
   ssr: false,
-})
+});
 
 export const metadata: Metadata = {
   title: "Fast-M | Деньги для вас",
@@ -21,11 +21,9 @@ export default function RootLayout({ children }: Props) {
     <html lang="ru">
       <body>
         <ThemeProvider>
-          <div className="page dark:bg-dark-black">
-            <SpecialOffer />
-            <Header />
-            {children}
-          </div>
+          <SpecialOffer />
+          <Header />
+          {children}
         </ThemeProvider>
       </body>
     </html>

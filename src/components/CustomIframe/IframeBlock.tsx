@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { CustomIframeModal } from "./CustomIframeModal";
 
 export function IframeBlock() {
   return (
@@ -8,6 +9,7 @@ export function IframeBlock() {
         src='/png/iframe-bg.png'
         alt="Видео нашего процесса обучения"
       />
+      <CustomIframeModal />
     </div>
   )
 }

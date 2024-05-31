@@ -20,6 +20,7 @@ const config: Config = {
       yellow: '#FCC344',
       'gray-light': '#F7F7F7',
       black: '#000000',
+      'black-transparent': '#000000ba',
       white: '#fff',
       'text-second': '#717171',
       green: '#0FAD1F',

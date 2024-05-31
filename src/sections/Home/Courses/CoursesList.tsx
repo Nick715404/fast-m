@@ -13,7 +13,7 @@ export function CoursesList() {
           </Fragment>
         ))
       }
-      <div className="border border-[#F7F7F7] rounded-[32px] w-[45%] p-10 text-center flex items-center justify-center flex-col">
+      <div className="border border-gray-light rounded-[32px] w-[48.5%] p-10 text-center flex items-center justify-center flex-col">
         <h3 className="font-bold text-[28px] leading-8">Какой выбрать?</h3>
         <Link className="font-medium text-lg p-4" href={'#'}>Сравнить курсы</Link>
       </div>

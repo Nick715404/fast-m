@@ -6,7 +6,7 @@ type Props = { data: TCoursesCard, }
 
 export default function CourseItem({ data }: Props) {
   return (
-    <div className="flex items-center justify-between gap-2 bg-gray-light rounded-[32px] p-10 w-[45%]">
+    <div className="flex items-center justify-between gap-2 bg-gray-light rounded-[32px] p-10 w-[48.5%]">
       <div className="w-[80%]">
         <span className="block text-base px-3 py-1 bg-yellow w-fit mb-4">{data.duration}</span>
         <h3 className="font-bold text-[28px] leading-8 mb-3">{data.title}</h3>

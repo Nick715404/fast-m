@@ -6,21 +6,6 @@
   @apply transition-colors duration-200
 }
 
-body {
-  font-family: Aeroport, Arial, Helvetica, sans-serif;
-  font-weight: 400;
-}
-
-.page {
-  min-height: 100dvh;
-}
-
-.container {
-  max-width: 1170px;
-  width: 90%;
-  margin: 0 auto;
-}
-
 @layer base {
   @font-face {
     font-family: Aeroport;
@@ -39,4 +24,19 @@ body {
     font-weight: 400;
     src: url('/fonts/Aeroport.woff') format("woff");
   }
+}
+
+body {
+  font-family: Aeroport, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.page {
+  min-height: 100dvh;
+}
+
+.container {
+  max-width: 1170px;
+  width: 90%;
+  margin: 0 auto;
 }
