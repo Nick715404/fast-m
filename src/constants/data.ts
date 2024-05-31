@@ -147,12 +147,36 @@ export const homePageTabs = [
   },
 ]
 
+export const homePageEducation = [
+  {
+    id: 1,
+    title: 'Видеоуроки и онлайн-встречи',
+    desc: 'По 3 урока в неделю.',
+  },
+  {
+    id: 2,
+    title: 'Домашние задания',
+    desc: 'С обратной связью от эксперта.',
+  },
+  {
+    id: 3,
+    title: 'Кураторы курсов',
+    desc: 'Отвечает на вопросы в общем чате.',
+  },
+  {
+    id: 4,
+    title: 'Чат с участниками курса',
+    desc: 'Новости и прогнозы, полезные материалы и просто общение.',
+  },
+];
+
 // ------------------------------------------- Pages Data -------------------------------------------
 
 // - Home Data
-export const HomePage = {
+export const HomePageData = {
   tabs: homePageTabs,
   courses: homePageCoursesData,
+  education: homePageEducation,
 }
 
 // - Crypto Data

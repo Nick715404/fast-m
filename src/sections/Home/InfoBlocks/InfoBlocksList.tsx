@@ -1,9 +1,9 @@
-import { HomePage } from "@/constants/data";
+import { HomePageData } from "@/constants/data";
 import { InfoBlockItem } from "./InfoBlockItem";
 import { Fragment } from "react";
 
 export function InfoBlocksList() {
-  const { tabs } = HomePage;
+  const { tabs } = HomePageData;
 
   return (
     <div className="flex items-center justify-between">

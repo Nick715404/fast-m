@@ -7,3 +7,5 @@ export { Button } from './Button';
 export { SpecialOffer } from './SpecialOffer/SpecialOffer';
 export { Marque } from './Marque';
 export { CustomSwiper } from './Swiper/CustomSwiper';
+export { ThemeSwitcher } from './DarkThemeSwitcher';
+export { CustomIframe } from './CustomIframe/CustomIframe';

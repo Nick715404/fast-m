@@ -2,14 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  background-color: #fff;
+* {
+  @apply transition-colors duration-200
 }
 
 body {
   font-family: Aeroport, Arial, Helvetica, sans-serif;
   font-weight: 400;
+}
+
+.page {
+  min-height: 100dvh;
 }
 
 .container {

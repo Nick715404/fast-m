@@ -1,6 +1,6 @@
-import { HomePage } from "@/constants/data";
+import { HomePageData } from "@/constants/data";
 
-const { tabs } = HomePage;
+const { tabs } = HomePageData;
 type Props = { data: typeof tabs[0], };
 
 export function InfoBlockItem({ data }: Props) {

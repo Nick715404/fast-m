@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss";
 
@@ -23,6 +24,9 @@ const config: Config = {
       'text-second': '#717171',
       green: '#0FAD1F',
       gray: '#8D8D8D',
+      'dark-black': '#1e1e1e',
+      'dark-white': '#e2e2e2',
+      'dark-black-light': '#464646'
     },
     extend: {
       keyframes: {
@@ -40,5 +44,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  darkMode: "class",
 };
 export default config;

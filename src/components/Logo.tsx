@@ -8,7 +8,7 @@ export function Logo() {
         priority
         width={140}
         height={37}
-        className="h-auto"
+        className="dark:invert"
         src="/svg/logo.svg"
         alt="Logo M-Fast"
         style={{ height: 'auto', width: 'auto' }}

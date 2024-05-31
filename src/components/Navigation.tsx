@@ -6,7 +6,9 @@ export function Navigation() {
     <nav>
       <ul className="flex items-center gap-8">
         {links.map((link, index) => (
-          <Link className="hover:scale-105 transition" key={index} href={link.href}>{link.label}</Link>
+          <Link className="hover:scale-105 transition dark:text-dark-white" key={index} href={link.href}>
+            {link.label}
+          </Link>
         ))}
       </ul>
     </nav>

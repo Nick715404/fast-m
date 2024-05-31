@@ -1,7 +1,8 @@
 import "./globals.css";
 
-import { Header } from "@/components";
 import type { Metadata } from "next";
+import { Header } from "@/components";
+import { ThemeProvider } from "@/utils/providers";
 import dynamic from "next/dynamic";
 
 const SpecialOffer = dynamic(() => import('../components/SpecialOffer/SpecialOffer').then((res) => res.SpecialOffer), {
@@ -19,9 +20,13 @@ export default function RootLayout({ children }: Props) {
   return (
     <html lang="ru">
       <body>
-        <SpecialOffer />
-        <Header />
-        {children}
+        <ThemeProvider>
+          <div className="page dark:bg-dark-black">
+            <SpecialOffer />
+            <Header />
+            {children}
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );

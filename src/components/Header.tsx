@@ -1,5 +1,4 @@
-import { LoginLink } from "./Auth";
-import { Button, Logo, Navigation } from "./";
+import { Logo, Navigation } from "./";
 
 export function Header() {
   return (
@@ -8,7 +7,6 @@ export function Header() {
         <div className="flex items-center justify-between">
           <Logo />
           <Navigation />
-          <LoginLink />
         </div>
       </div>
     </header>
