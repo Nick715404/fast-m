@@ -75,37 +75,49 @@ export const speakers = [
     id: 1,
     name: 'Максим Денисламов',
     descr: 'Гуру технического анализа, автор книг по ивестициям, капитал под консультационным управлением — $8 млн.',
-    img: ''
+    img: '/images/experts/max-denislamov.png'
   },
   {
     id: 2,
     name: 'Дмитрий Тюрин',
     descr: 'Инвестор на криптовалютном рынке с положительной дохо-дностью 90 месяцев подряд.',
-    img: ''
+    img: '/images/experts/dmitriy-turin.png'
   },
   {
     id: 3,
     name: 'Мария Лощилова',
     descr: 'Специалист по криптоинвести-циям, соавтор курсов Манифест. В 22 заработала свой первый миллион.',
-    img: ''
+    img: '/images/experts/maria-loshilova.png'
   },
   {
     id: 4,
     name: 'Анатолий Дагиль',
     descr: 'Специалист по криптоинвести-циям, автор курсов Манифест, лицензированный брокер.',
-    img: ''
+    img: '/images/experts/anatoliy-dagil.png'
   },
   {
     id: 5,
     name: 'Мария Лощилова',
     descr: 'Специалист по криптоинвести-циям, соавтор курсов Манифест. В 22 заработала свой первый миллион.',
-    img: ''
+    img: '/images/experts/maria-loshilova.png'
   },
   {
     id: 6,
     name: 'Анатолий Дагиль',
     descr: 'Специалист по криптоинвести-циям, автор курсов Манифест, лицензированный брокер.',
-    img: ''
+    img: '/images/experts/anatoliy-dagil.png',
+  },
+  {
+    id: 7,
+    name: 'Максим Денисламов',
+    descr: 'Гуру технического анализа, автор книг по ивестициям, капитал под консультационным управлением — $8 млн.',
+    img: '/images/experts/max-denislamov.png'
+  },
+  {
+    id: 8,
+    name: 'Дмитрий Тюрин',
+    descr: 'Инвестор на криптовалютном рынке с положительной дохо-дностью 90 месяцев подряд.',
+    img: '/images/experts/dmitriy-turin.png'
   },
 ];
 
@@ -177,10 +189,11 @@ export const HomePageData = {
   tabs: homePageTabs,
   courses: homePageCoursesData,
   education: homePageEducation,
+  speakers: speakers,
 }
 
 // - Crypto Data
-export const CryptoPage = {
+export const CryptoPageData = {
   title: 'Криптоинвестиции: успешный старт',
   subTitle: 'Научим зарабатывать на криптовалюте с нуля. Расскажем как заработать 500 % за 6 месяцев.',
   tabs: [

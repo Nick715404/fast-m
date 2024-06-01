@@ -1,4 +1,5 @@
 import { Logo, Navigation } from "./";
+import { AuthButton } from "./Auth";
 
 export function Header() {
   return (
@@ -7,6 +8,7 @@ export function Header() {
         <div className="flex items-center justify-between">
           <Logo />
           <Navigation />
+          <AuthButton />
         </div>
       </div>
     </header>

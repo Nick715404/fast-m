@@ -2,7 +2,6 @@
 
 import { swiperData } from "@/constants/data";
 import { FullSwiper } from './FullSwiper';
-import SwiperNavigation from "./SwiperNavigation";
 
 export function CustomSwiper() {
   return (

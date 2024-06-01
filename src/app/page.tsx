@@ -1,4 +1,4 @@
-import { CustomSwiper } from "@/components";
+import { CustomSwiper, Experts } from "@/components";
 import { Courses, HowWeStudy, InfoBlocks } from "@/sections/Home";
 
 export default function HomePage() {
@@ -8,6 +8,7 @@ export default function HomePage() {
       <InfoBlocks />
       <Courses />
       <HowWeStudy />
+      <Experts />
     </main>
   );
 };
